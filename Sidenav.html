@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <title>Responsive Sidenav</title> 
+  <link rel="stylesheet" href="styles.css"> 
+ <style type="text/css" id="dcoder_stylesheet">body 
+{
+  font-family: "Poppins", sans-serif;
+  
+}
+
+.sidenav 
+{
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #DDB12A;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a 
+{
+  padding: 6px 6px 6px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #82869E;
+  display: block;
+}
+
+ .sidenav title 
+{
+  position: center;
+  display: block;
+  height: 100px;
+  line-height: 100px;
+  textalign: center;
+  
+}
+.sidenav a:hover 
+{
+  color: #f1f1f1;
+}
+.main 
+{
+  margin-left: 180px; 
+  
+}
+@media screen and (max-height: 450px)
+ {
+  .sidenav
+   {
+     padding-top: 5px;
+   }
+  .sidenav a 
+  {
+    font-size: 5px;
+  }
+ 
+}</style></head> 
+ <body> 
+  <div class="sidenav"> 
+   <span class="title">TECHNICAL DOCUMENTATION</span> 
+   <a href="#">System doc</a> 
+   <a href="#">User doc</a> 
+   <a href="#">Product doc</a> 
+   <a href="#">Service doc</a> 
+  </div> 
+  <div class="main"> 
+   <h1>TECHNICAL DOCUMENTATION</h1> 
+   <p> Technical documentation is a generic term for the classes of information created to describe (in technical language) the use, functionality or architecture of a product, system or service.</p> 
+  </div> 
+ 
+</body></html>
